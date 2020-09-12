@@ -1,0 +1,232 @@
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    transition-duration: 0.3s;
+    color: #151515;
+}
+
+a:hover {
+    color: rgb(56, 56, 56), 87, 87) !important;
+}
+
+.link {
+    color: rgb(0, 132, 194);
+}
+
+.link:hover {
+    color: rgb(89, 203, 255);
+}
+
+.far, .fab {
+    font-size: 1.4em;
+}
+
+.footer {
+    padding-top: 150px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.contact-info >h2, h4 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-right: 20px;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: #151515;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #525252;
+    font-size: 1.4em;
+}
+
+h3 {
+    font-weight: 400;
+    margin-top: 0;
+    color: rgb(163, 163, 163);
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.125em;
+}
+
+section {
+    padding: 22px 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image1 {
+    padding-bottom: 30px;
+}
+
+.caption {
+    padding-top: 2px;
+    font-size: 1.15em;
+    font-weight: 400;
+    color: rgb(95, 95, 95);
+}
+
+.subtitle, .description {
+    padding-bottom: 30px;
+}
+
+.other-projects {
+    padding-top: 100px;
+}
+
+.other-projects >h1 {
+    line-height: 0;
+    font-size: 1.8em;
+}
+
+.project-title> h2{
+    margin: 4px 0px 0px 0px;
+}
+
+
+@media only screen and (min-width: 799px) {
+    section {
+        margin: 0 auto !important;
+        max-width: 750px !important; 
+    }
+
+    .txt-container {
+        padding: 150px 0px 60px 0px;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) {
+    section, .full-width-img {
+        max-width: 95% !important;
+        margin: 0 auto !important;
+    }
+
+    h1 {
+        font-size: 3em; 
+    }
+    
+    h2 {
+        font-size: 1.85em;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    p {
+
+        font-size: 1.2em;
+    }
+
+    .project-title {
+
+        display: flex;
+    }
+
+    .name {
+        width: 40%;
+    }
+
+    .description {
+        padding-top: 1.6em;
+        margin-left: auto;
+        width: 50%;
+    }
+
+    .subtitle, .description {
+        padding-bottom: 100px;
+    }
+
+    .txt-container {
+        display: flex;
+    }
+
+    .title {
+        padding-top: 0.45em;
+        line-height: 0;
+        width: 35%;
+    }
+
+    .body-txt {
+        width: 60%;
+    }
+
+    .double-image {
+        display: flex;
+    }
+    
+    .image1, .image2 {
+        width: 49.5%;
+    }
+
+    .image1 {
+        margin-right: .25%;
+    }
+
+    .image2 {
+        margin-left: .25%;
+    }
+
+    .other-projects >h1 {
+        line-height: 0;
+        font-size: 2.2em;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+section, .full-width-img {
+        max-width: 60% !important;
+        margin: 0 auto !important;
+    }
+
+    h4 {
+        font-size: 1.45em;
+    }
+
+    p {
+        font-size: 1.4em;
+    }
+}
+
+
+
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main3.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="/main.js"></script>
+    <title>CVPA Animations</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav id="navbar" class="main-navbar">
+        <div   data-aos="fade-down" data-aos-anchor-placement="top-bottom" class="left">
+            <a href="/index.html">
+                <img class="logo" src="/r-svg.png" alt="">
+            </a>
+        </div>
+        <span  data-aos="fade-down" data-aos-anchor-placement="top-bottom"  class="right"onclick="openNav()">Menu</span>
+        <div  data-aos="fade-down" data-aos-anchor-placement="top-bottom"  class="right-desktop">
+            <a href="/work.html">Work</a>
+            <a href="http://www.linkedin.com/in/raymondchen0">LinkedIn</a>
+            <a href="mailto:contact@rchendesigns.com">Contact</a>
+        </div>
+    </nav>
+
+    <!-- MOBILE SIDE NAV -->
+    <div id="mySidenav" class="sidenav closebtn"onclick="closeNav()">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
+        <a href="/work.html">Work</a>
+        <a href="http://www.linkedin.com/in/raymondchen0">LinkedIn</a>
+        <a href="mailto:contact@rchendesigns.com">Contact</a>
+      </div>
+
+
+    <!-- TITLE SECTION -->
+    <section class="project-title">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="name"><h1>CVPA Animations</h1>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="100" class="subtitle"><h3>Motion Graphics</h3></div>
+</div>
+<div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="description">
+    <h2>Animation for the use of CVPA and The University of Massachusetts Dartmouth.</h2></div>
+    </section>
+
+
+    <!-- HERO IMAGE -->
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="full-width-img">
+        <img src="/CVPA/CVPA LOGO.png" alt="">
+    </div>
+
+    <!-- TITLE AND BODY TEXT (OVERVIEW) -->
+    <section class="txt-container">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="title"><h4>Overview</h4></div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="body-txt"><p>These animations were created in my Design Studio class where we take various faculty from the university as our client. I was assigned with the task of creating animations that recruiters could later use in presentations when visiting high schools to recruit prospective students.</p>
+
+    </div>
+    </section>
+
+    
+    <!-- SINGLE IMAGE -->
+    <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="single-image">
+        <video loop autoplay controls src="/CVPA/CVPA1.mp4"></video>
+    </section>
+
+        <!-- SINGLE IMAGE -->
+        <section  data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="single-image">
+            <video loop autoplay controls src="/CVPA/CVPA2.mp4"></video>
+        </section>
+
+            <!-- SINGLE IMAGE -->
+    <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="single-image">
+        <video loop autoplay controls src="/CVPA/CVPA3.mp4"></video>
+    </section>
+
+        <!-- SINGLE IMAGE -->
+        <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="single-image">
+            <video autoplay loop controls src="/CVPA/CVPA4.mp4"></video>
+        </section>
+
+   
+        
+                 <!-- TITLE AND BODY TEXT (CONCLUSION) -->
+
+
+    <!-- SPACER -->
+    <div  class="spacer" style="padding-bottom: 80px;"></div>
+
+        <!-- DOUBLE IMAGE SECTION WITH CAPTION (OTHER PORJECTS) -->
+    <div  class="spacer" style="padding-bottom: 80px;"></div>
+        <section class="other-projects"  style="border-top: 1px solid rgb(95, 95, 95);">
+            <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Other Projects</h1>
+        </section>
+        <section class="double-image">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"  class="image1" style="cursor:pointer;">
+                <a href="/Lipton.html">
+                <img src="/Lipton/Lipton_hero.jpg" alt="">
+                <!-- PROJECT TITLE -->
+                <div class="project-title"><h2>Lipton Rebrand</h2></div>
+                <!-- CAPTION FOR IMAGE -->
+                <h3>Branding, Packaging</h3>
+            </a>
+            </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" class="image2" style="cursor:pointer;">
+                <a href="/Allenspond.html">
+                <img src="/Allenspond/Allenspond_hero.jpg" alt="">
+                <!-- PROJECT TITLE -->
+                <div class="project-title"><h2>Allens Pond: The Soutch Coast Osprey Project</h2></div>
+                <!-- CAPTION FOR IMAGE -->
+                <h3>Forms, Stationery</h3>
+            </a>
+            </div>
+        </section>
+
+
+<!-- JS SCRIPTS  -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+        <script>
+AOS.init({
+    easing: 'ease-out',
+   duration: 500,
+once: true
+});
+        </script>
+</body>
+</html>
