@@ -1,0 +1,136 @@
+nav {
+    z-index: 99;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s !important;
+    position: sticky;
+    background-color: rgba(255, 255, 255, 0.973) !important;
+    padding: 22px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+    width: 50px;
+}
+
+.right {
+    font-size: 1.4em;
+    font-weight: 500;
+    cursor: pointer;
+    padding-top: 10px;
+    float: right;
+}
+
+.right:hover {
+    color: rgb(0, 132, 194);
+}
+
+.right-desktop {
+    display: none;
+}
+
+
+@media only screen and (min-width: 799px) {
+nav {
+        max-width: 750px;
+        margin: 0 auto !important;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) {
+nav {
+        max-width: 95% !important;
+
+    }
+
+    .logo {
+        width: 75px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .right-desktop {
+        padding-top: 20px;
+        display: inline-block;
+    }
+
+    .right-desktop >a {
+        transition-duration: 0.3s;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.4em;
+        color: #151515;
+        padding-right: 40px;
+    }
+
+    .right-desktop >a:hover {
+ color: rgb(0, 132, 194);
+    }
+}
+
+
+@media only screen and (min-width: 1600px) {
+nav {
+        max-width: 60% !important;
+    }
+}
+
+
+
+/* SIDEBAR NAV */
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    background-color: rgba(17, 17, 17, 0.986);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+
+
+  
+  .sidenav a {
+    text-align: left;
+    padding: 8px 8px 8px 50px;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #d1d1d1;
+    transition: 0.3s;
+  
+  }
+  
+  .sidenav a:hover{
+    color: rgb(0, 132, 194);
+  }
+  
+  .sidenav .closebtn {
+    color: #d1d1d1;
+    position: absolute;
+    top: 22px;
+    right: 25px;
+    font-size: 1.4em;
+    margin-left: 50px;
+  }
+
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .container:hover {
+    color: rgb(0, 132, 194);
+  }
+
